@@ -22,14 +22,14 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   form.addEventListener('submit', event => {
+    event.preventDefault();
+
     if (form.elements.email.value && form.elements.message.value) {
-      event.preventDefault();
       console.log(formData);
       localStorage.removeItem('feedback-form-state');
       formData = { email: '', message: '' };
       form.reset();
     } else {
-      event.preventDefault();
       alert('Fill please all fields');
     }
   });
