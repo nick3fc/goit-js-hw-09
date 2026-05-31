@@ -7,5 +7,5 @@ import"./assets/modulepreload-polyfill-B5Qt9EMX.js";import{S as i}from"./assets/
           alt="${o.description}"
         />
       </a>
-    </li>`).join("");p.insertAdjacentHTML("beforeend",t);new i(".gallery a",{captionsData:"alt",captionDelay:250});
+    </li>`).join("");p.insertAdjacentHTML("beforeend",t);new i(".gallery a",{captionsData:"alt",captionDelay:250,showCounter:!1});
 //# sourceMappingURL=1-gallery.js.map
