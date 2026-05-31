@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   form.addEventListener('input', () => {
     //   write values to formData
-    formData.email = form.elements.email.value;
-    formData.message = form.elements.message.value;
+    formData.email = form.elements.email.value.trim();
+    formData.message = form.elements.message.value.trim();
     // write values to localStorage
     localStorage.setItem('feedback-form-state', JSON.stringify(formData));
   });
