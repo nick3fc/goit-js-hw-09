@@ -6,8 +6,9 @@
     <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gallery</title>
-  <script type="module" crossorigin src="/goit-js-hw-09/assets/index-CEV7car2.js"></script>
-  <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/index-CyHcWzD0.css">
+  <script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/index-DuM1mHtV.js">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/index-DIkhxBr4.css">
 </head>
 
 <body>
@@ -15,19 +16,23 @@
 
     <main>
         <div class="container">
-            <form class="feedback-form" autocomplete="off">
-                <label>
-                    Email
-                    <input type="email" name="email" autofocus />
-                </label>
-                <label>
-                    Message
-                    <textarea name="message" rows="8"></textarea>
-                </label>
-                <button type="submit">Submit</button>
-            </form>
+            <div class="form-wrapper">
+                <form class="feedback-form" autocomplete="off">
+                    <label>
+                        Email
+                        <input type="email" name="email" autofocus />
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" rows="8"></textarea>
+                    </label>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
 
-            <a class="back-link" href="./index.html">Go back</a>
+            <div>
+                <a class="back-link" href="./index.html">Go back</a>
+            </div>
         </div>
     </main>
 
