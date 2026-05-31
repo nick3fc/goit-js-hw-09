@@ -57,17 +57,8 @@ ul {
   /* object-fit: cover; */
 }
 .back-link {
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-
-  padding: 5px 18px;
-  border-radius: 10px;
+  padding: 5px;
+  border-radius: 5px;
 
   background-color: rgba(57, 163, 180, 0.5);
   color: #0f172a;
@@ -84,7 +75,7 @@ ul {
   background-color: rgba(150, 107, 229, 0.4);
 }
 .back-link:active {
-  transform: translateY(1px) scale(0.98);
+  background-color: rgba(240, 174, 75, 0.4);
 }
 .back-link:focus {
   outline: none;
