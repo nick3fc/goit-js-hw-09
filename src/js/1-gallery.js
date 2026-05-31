@@ -65,7 +65,7 @@ const images = [
   },
 ];
 
-т; // -----------lib connection code----------
+// -----------lib connection code----------
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
