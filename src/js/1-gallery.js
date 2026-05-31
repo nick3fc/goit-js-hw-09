@@ -94,6 +94,7 @@ galleryList.insertAdjacentHTML('beforeend', newGalleryItems);
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
+  showCounter: false,
 });
 // const galleryClick = document.querySelector('.gallery');
 
