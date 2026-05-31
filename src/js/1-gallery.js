@@ -91,7 +91,10 @@ const newGalleryItems = images
 galleryList.insertAdjacentHTML('beforeend', newGalleryItems);
 
 // -----------gallery-click code----------
-
+const lightbox = new SimpleLightbox('.gallery a', {
+  captionsData: 'alt',
+  captionDelay: 250,
+});
 // const galleryClick = document.querySelector('.gallery');
 
 // galleryClick.addEventListener('click', event => {
